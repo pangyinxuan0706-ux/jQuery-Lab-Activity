@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Project Index Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- jQuery Mobile base CSS -->
+  <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+
+  <!-- jQuery & jQuery Mobile JS -->
+  <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script>
+    $(document).on("mobileinit", function () {
+      $.mobile.ajaxEnabled = false; // make sure links work properly
+    });
+  </script>
+  <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+
+  <!-- Home Page -->
+  <div data-role="page" id="home" >
+
+    <div data-role="header" >
+      <h1>Project Navigation</h1>
+    </div>
+
+    <div data-role="main" class="ui-content">
+      <p>Individual Task:</p>
+
+      <a href="Part1.html" class="ui-btn ui-btn-inline" >Part 1</a>
+      <a href="Part2.html" class="ui-btn ui-btn-inline">Part 2</a>
+      <a href="Part3.html" class="ui-btn ui-btn-inline">Part 3</a>
+      <a href="Part4.html" class="ui-btn ui-btn-inline">Part 4</a>
+      <a href="Part5.html" class="ui-btn ui-btn-inline">Part 5</a>
+      <a href="Part6.html" class="ui-btn ui-btn-inline">Part 6</a>
+      <a href="Part7.html" class="ui-btn ui-btn-inline">Part 7</a>
+      <a href="Part8.html" class="ui-btn ui-btn-inline">Part 8</a>
+      <a href="Part9.html" class="ui-btn ui-btn-inline">Part 9</a>
+    </div>
+
+    <div data-role="footer" data-position="fixed" data-theme="b">
+      <h4>© 2025 My jQuery Mobile Project</h4>
+    </div>
+  </div>
+
+</body>
+</html>

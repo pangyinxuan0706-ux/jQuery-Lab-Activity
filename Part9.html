@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Setup Jquery Mobile</title>
+        <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    </head>
+    <body>
+      
+        <div data-roles="page" id="page1">
+
+            <div data-role="header">
+                <h1>HOME PAGE</h1>
+            </div>
+
+            <div data-role="main" class="ui-content">
+
+                <ul data-role="listview">
+                    <li data-icon="video"><a href="#page2" data-transition="turn">Videos</a></li>
+                    <li data-icon="audio"><a href="#page3" data-transition="slidedown">Audios</a></li>
+                    <li data-icon="grid"><a href="#">Pictures</a></li>
+                </ul>
+                
+            </div>
+
+            <div data-role="footer" data-position="fixed">
+                <h4> footer</h4>
+            </div>
+        </div>
+
+<!--Videos-->
+         <div data-role="page" id="page2">
+            <div data-role="header">
+                <h1>Videos Panel</h1>
+            </div>
+
+            <div data-role="main" class="ui-content">
+                <h1>WELCOME TO VIDEO CENTRE</h1>
+                <a href="#page1" data-transition="flow">Back</a>
+                
+            </div>
+
+            <div data-role="footer" data-position="fixed">
+                <h4> footer</h4>
+            </div>
+        </div>
+
+        <!--Audio-->
+         <div data-role="page" id="page3">
+            <div data-role="header">
+                <h1>Audio Panel</h1>
+            </div>
+
+            <div data-role="main" class="ui-content">
+                <h1>WELCOME TO AUDIO CENTRE</h1>
+                <a href="#page1" data-transition="slidefade">Back</a>
+                
+            </div>
+
+            <div data-role="footer" data-position="fixed">
+                <h4> footer</h4>
+            </div>
+        </div>
+
+        </body>
+</html>
